@@ -43,8 +43,8 @@ Contributing
 We welcome contributions to enhance the Project Movie Theater. To contribute:
 
 
-Contact
-For any inquiries or feedback, please contact:
+# Contact :For any inquiries or feedback, please contact:
 
 Author: Siratee Saiprom
+
 Email: siratee6775@gmail.com
