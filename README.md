@@ -1,57 +1,50 @@
-Project Movie Theater 🎬
-This project is a Movie Theater web application that allows users to browse available movies, view movie details, and book tickets online. Built using modern web technologies, the app provides a smooth and user-friendly experience.
+# Project Movie Theater 🎬
 
-Features
-Browse Movies: View a list of currently available movies, sorted by category or popularity.
-Movie Details: Get detailed information about each movie, including the synopsis, runtime, genre, and trailer.
-Book Tickets: Select showtimes, pick seats, and book tickets for your desired movies.
-Responsive Design: Optimized for both desktop and mobile devices.
-Technologies Used
-Frontend: React.js, TypeScript
-Backend: Node.js, Express.js
-Database: MongoDB (Mongoose)
-Styling: Tailwind CSS
-Authentication: JSON Web Token (JWT)
-Payment Integration: Stripe API
-Setup Instructions
-Clone the repository:
+Welcome to the Movie Theater web application! This project allows users to browse movie listings, view movie details, and book tickets online. Designed with a focus on user experience, it features a responsive design and integrates with various APIs to provide a seamless booking experience.
 
-bash
-Copy code
-git clone https://github.com/SOtwoX1/Project-Movie-Theater.git
-cd Project-Movie-Theater
-Install dependencies for both frontend and backend:
+## Features
 
-bash
-Copy code
-npm install
-Environment variables: Create a .env file in the root directory and include the following variables:
+- **Browse Movies**: Explore a comprehensive list of available movies with sorting options by category or popularity.
+- **Movie Details**: View detailed information about each movie, including the synopsis, runtime, genre, and trailer.
+- **Book Tickets**: Select showtimes, choose seats, and book tickets directly from the application.
+- **Responsive Design**: Fully optimized for both desktop and mobile devices for a smooth browsing experience.
 
-env
-Copy code
-MONGODB_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
-STRIPE_SECRET_KEY=your_stripe_secret_key
+## Technologies Used
+
+- **Frontend**: React.js, Vite.js
+- **Backend**: Node.js, Express.js
+- **Database**: MySQL
+- **Styling**: Tailwind CSS
+- **Authentication**: JSON Web Token (JWT)
+
+## Getting Started
+
+To get started with the Project Movie Theater, follow these instructions:
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/SOtwoX1/Project-Movie-Theater.git
+   cd Project-Movie-Theater
+   
+2. Install dependencies: Navigate to both the frontend and backend directories and install the required packages:
+   
+# For Full-stack
+- npm install
+Setup environment variables: Create a .env file in the backend directory with the following content:
+
+
 Run the application:
+- npm run dev
+Access the application: Open your browser and go to http://localhost:3000 to start using the application.
 
-Start the backend server:
-bash
-Copy code
-npm run server
-Start the frontend:
-bash
-Copy code
-npm start
-Visit the application at http://localhost:3000.
+Contributing
+We welcome contributions to enhance the Project Movie Theater. To contribute:
 
-Contribution Guidelines
-Fork the repository and create a new branch for your feature/bug fix.
-Submit a pull request with a detailed description of the changes.
-License
-This project is licensed under the MIT License.
 
 Contact
-For any questions or feedback, please feel free to reach out:
+For any inquiries or feedback, please contact:
 
 Author: Siratee Saiprom
-Email: your.email@example.com
+Email: siratee6775@gmail.com
